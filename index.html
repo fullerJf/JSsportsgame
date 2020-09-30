@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>My JS Game</h1>
+      <div id="reset-container">
+        <button id="reset-button">RESET</button><br />
+        NUMBER OF RESETS: <span id="num-resets">0</span>
+      </div>
+      <div class="clear"></div>
+      <div class="left">
+        <h2>Team 1</h2>
+        <div class="goals">
+          SHOTS TAKEN: <span id="team-one-numshots">0</span><br />
+          GOALS: <span id="team-one-numgoals">0</span>
+        </div>
+        <div>
+          <button id="team-one-shoot-button">SHOOT</button>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Team 2</h2>
+        <div class="goals">
+          SHOTS TAKEN: <span id="team-two-numshots">0</span><br />
+          GOALS: <span id="team-two-numgoals">0</span>
+        </div>
+        <div>
+          <button id="team-two-shoot-button">SHOOT</button>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>
